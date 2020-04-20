@@ -1,5 +1,5 @@
 const createServer = require("./server/index.js");
-const DB = require("./database/index.js");
+const db = require("./database/index.js");
 const server = createServer();
 
 server.start(

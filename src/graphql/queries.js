@@ -1,13 +1,15 @@
+const { forwardTo } = require("prisma-binding");
+
 const Query = {
-	books(parent, args, context, info) {
-		return [
-			{ title: "Eloquent Javascript", image: "eloquent-javascript.png" },
-			{
-				title: "JavaScript: The Good Parts",
-				image: "javaScript-goodparts.png",
-			},
-		];
-	},
+	// async books(parent, args, context, info) {
+	// 	try {
+	// 		const books = await context.db.query.books();
+	// 		return books;
+	// 	} catch (error) {
+	// 		console.error(error);
+	// 	}
+	// },
+	books: forwardTo("db"),
 };
 
 module.exports = Query;
