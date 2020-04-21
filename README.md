@@ -1,3 +1,7 @@
+# Curso de Creación de APIs con GraphQL y Node.js
+
+[webtraining.zone](https://webtraining.zone/)
+
 ## downloads
 
 -   [graphql-playground](https://www.electronjs.org/apps/graphql-playground)
