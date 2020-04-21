@@ -14,7 +14,6 @@
 	"author": "Harley Santos Garzón",
 	"license": "UNLICENSED",
 	"dependencies": {
-		"graphql": "^15.0.0",
 		"graphql-yoga": "^1.18.3",
 		"nodemon": "^2.0.3",
 		"npm-run-all": "^4.1.5",
@@ -22,5 +21,9 @@
 	},
 	"devDependencies": {
 		"graphql-cli": "^3.0.14"
+	},
+	"resolutions": {
+		"graphql": "^15.0.0",
+		"**/graphql": "^15.0.0"
 	}
 }

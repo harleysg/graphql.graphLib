@@ -9,6 +9,7 @@ const Query = {
 	// 		console.error(error);
 	// 	}
 	// },
+	// ForwardTo the default query definitions
 	books: forwardTo("db"),
 };
 
