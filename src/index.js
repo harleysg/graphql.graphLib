@@ -6,7 +6,7 @@ server.start(
 	{
 		cors: {
 			credentials: true,
-			origin: "*",
+			origin: ["*", "http://localhost:8085", "http://localhost:4000"],
 		},
 	},
 	({ port }) => {
