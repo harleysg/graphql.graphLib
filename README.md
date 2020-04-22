@@ -1,4 +1,4 @@
-# Curso de Creación de APIs con GraphQL y Node.js
+# Curso de Creación de APIs con GraphQL y Node.js - backend
 
 [webtraining.zone](https://webtraining.zone/)
 
