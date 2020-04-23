@@ -2,8 +2,10 @@
 
 type Mutation {
 	createBook(title: String): Book
+	createUser(name: String): User
 }
 
 type Query {
 	books: [Book]!
+	users: [User]!
 }

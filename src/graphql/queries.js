@@ -11,6 +11,7 @@ const Query = {
 	// },
 	// ForwardTo the default query definitions
 	books: forwardTo("db"),
+	users: forwardTo("db"),
 };
 
 module.exports = Query;
