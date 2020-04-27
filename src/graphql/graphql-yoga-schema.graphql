@@ -7,5 +7,7 @@ type Mutation {
 
 type Query {
 	books: [Book]!
+	book(where: BookWhereUniqueInput!): Book
 	users: [User]!
+	user(where: UserWhereUniqueInput!): User
 }
